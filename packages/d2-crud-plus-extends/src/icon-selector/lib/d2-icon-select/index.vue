@@ -49,7 +49,7 @@
       v-if="userInput"
       v-model="currentValue"
       v-bind="bind"
-      style="max-width: 240px;">
+      style="max-width: 240px;" @input="handleInput">
       <template v-if="value" slot="prepend">
         <i :class="'fa fa-' + value"></i>
       </template>
@@ -164,6 +164,10 @@ export default {
     this.currentValue = this.value
   },
   methods: {
+    handleInput(value) {
+      this.currentValue = value;
+      this.$emit('input', value);
+    },
     selectIcon (iconName = '') {
       this.$emit('input', iconName)
       if (iconName && this.autoClose) {
