@@ -13,10 +13,10 @@
 
 <a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://raw.githubusercontent.com/d2-projects/d2-admin/master/docs/image/d2-admin%402x.png" width="200"></a>
 
-## 警告：不再维护通知
-↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ 停止维护 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓      
-抱歉，由于精力有限，d2-crud-plus将不再维护（不加新功能、不修bug、可能也不再回复问题）。        
-如果你是新项目，强烈建议直接使用fast-crud        
+## 仅基于原框架fixed一些bug
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ fixed bug list ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓      
+1. icon-selectort用户输入值不能绑定
+ 
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓     
 
 ## fast-crud
