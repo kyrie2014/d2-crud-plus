@@ -44,17 +44,17 @@
       </div>
     </el-popover>
     <!-- 允许用户输入 -->
-    <el-input
+        <el-input
       :disabled="disabled"
       v-if="userInput"
       v-model="currentValue"
       v-bind="bind"
-      style="max-width: 240px;" @input="handleInput">
+      style="max-width: 240px;padding-right:-10px;padding-left:-10px" @input="handleInput">
       <template v-if="value" slot="prepend">
-        <i :class="'fa fa-' + value"></i>
+        <i :class="'fa fa-' + value" style="padding-right:10px;padding-left:10px"></i>
       </template>
       <el-button v-popover:pop slot="append">
-        <i class="fa fa-list"></i>
+        <i class="fa fa-list" style="padding-right:10px;padding-left:10px"></i>
       </el-button>
     </el-input>
     <!-- 不允许用户输入 -->
